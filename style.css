@@ -1,0 +1,162 @@
+
+
+/* BUTTON 1 */
+.btn_1{
+    background-color: #33ccff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+     font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+
+}
+.btn_1:hover {
+    background-color: #0099ff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  }
+
+
+  .btn_1:active {
+  
+    transform: translate(3px, 3px);
+  }
+  /* BUTTON 2  */
+.btn_2{
+    background: linear-gradient(to right, #a1d6e2 0%, #f1f1f2 100%);
+    border: none ;
+    color: #cf1e12;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: 2s;
+ 
+}
+
+.btn_2:hover {
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  }
+
+  /* BUTTON 3 */
+  .btn_3{
+    font-family: inherit;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+ .btn_3:hover{ background-color: #000000;
+   
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  color: #f1f1f2;
+  border: inherit;
+  border-radius: 9px;
+}
+.btn_3:active {
+  
+    transform: translate(3px, 3px);
+  }
+
+/* title */
+
+.title{
+ font-family: cursive;
+ font-size: xx-large;
+}
+
+/* Table */
+.mytable{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 700;
+  border: 1px solid #ddd;
+}
+
+.mytable th,tr{
+text-align: center;
+padding: 7px;
+}
+
+.mytable tr:nth-child(even){
+  background-color: f2f2f2;
+
+}
+  .mytable th{
+    background-color:rgba(26, 19, 19, 0.96) ;
+    color: white;
+  }
+
+  .mytable th,tr{
+    font-family:Georgia, 'Times New Roman', Times, serif
+    ;
+  }
+
+  /* Card */
+  
+  .card-1 {
+    width: 190px;
+    height: 280px;
+    padding: .8em;
+    background: #f5f5f5;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius: 1em;
+  }
+    
+   
+  .card-title {
+    color: #262626;
+    font-size: 1.2em;
+    line-height: normal;
+    font-weight: 300;
+    margin-bottom: 0.2em;
+    padding: 0.1em;
+    font-family: sans-serif;
+  }
+
+  .price-card{
+    color: #262626;
+    font-size: 1.3em;
+    line-height: 0%;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+ padding-bottom: 1px;
+ 
+  }
+
+ .sub-desc{
+  font-size: 0.8em;
+  font-weight: 100; 
+ }
+
+
+ .card-2 {
+  width: 190px;
+  height: 280px;
+  padding: .8em;
+  background: #f5f5f5;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+border-radius: 1em;
+}
+
+.card-3 {
+  width: 190px;
+  height: 280px;
+  padding: .8em;
+  background: #f5f5f5;
+  position: relative;
+  overflow: visible;
+  box-shadow: 0 5px 5px rgba(0,0,0,0.12), 0 5px 5px rgba(0,0,0,0.24);
+border-radius: 1em;
+}
+
